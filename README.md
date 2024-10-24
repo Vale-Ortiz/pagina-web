@@ -11,5 +11,10 @@ Bienvenido a **Depor Colombia**, una plataforma dedicada a proporcionar noticias
 - Interfaz fácil de usar y diseñada para dispositivos móviles.
 
 
+## Instalación y Uso
 
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/usuario/depor-colombia-html.git
 
