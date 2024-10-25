@@ -1,89 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pagina de Deportes</title>
-    <meta name="keywords" content="deportes,noticias" />
-    <link rel="stylesheet" href="styles/style.css" />
-
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina de Deportes</title>
+  <meta name="keywords" content="deportes,noticias">
+  <link rel="stylesheet" href="styleFooter.css">
+  <link rel="stylesheet" href="styles/noticias.css">
+  <link rel="stylesheet" href="styles/menu.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
     <header>
-      <nav class="menu">
-        <ul class="">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="noticias.html">Noticias</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="login.html">Login</a></li>
+      <nav>
+        <ol class="menu">
+         <ol class="menu-main"
+           <li>
+            <a href="index.html" id="inicio"
+              ><i class="fas fa-home"></i> Inicio</a
+            >
+          </li>
+          <li>
+            <a href="noticias.html" id="noticias"
+              ><i class="fas fa-newspaper"></i> Noticias</a
+            >
+          </li>
+          <li>
+            <a href="contacto.html" id="contacto"
+              ><i class="fas fa-envelope"></i> Contacto</a
+            >
+          </li>
+          </ol>
+         </ul>
+          <li class="login">
+            <a href="login.html" id="login"
+              ><i class="fas fa-sign-in-alt"></i> Login</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
+    <main>
     <div class="sidebar">
         <div class="tag">
             <a href="https://wa.me/" target="_blank">
-                <img src="/img/whatsapp.png" alt="Logo 1">
+                <img src="./img/whatsapp.png" alt="Logo 1">
             </a>
         </div>
         <div class="tag">
             <a href="https://www.facebook.com/" target="_blank">
-                <img src="/img/facebook.png" alt="Logo 2">
+                <img src="./img/facebook.png" alt="Logo 2">
             </a>
         </div>
         <div class="tag">
             <a href="https://www.instagram.com/" target="_blank">
-                <img src="/img/instagram.png" alt="Logo 3">
+                <img src="./img/instagram.png" alt="Logo 3">
             </a>
         </div>
         <div class="tag">
             <a href="https://twitter.com/" target="_blank">
-                <img src="/img/X.png" alt="Logo 4">
+                <img src="./img/X.png" alt="Logo 4">
             </a>
         </div>
-    </div>
-    <main>
-
+        </div>
+        
         <section class="container mt-4">
             <h2>Noticias Deportivas</h2>
-            <div class="row">
+            <div class="news-grid">
                 <!-- Noticia 1 -->
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="../images/noticias/deporte1.jpg" class="card-img-top" alt="Título de la noticia 1">
-                        <div class="card-body">
-                            <h5 class="card-title">James Rodriguez, nominado al mejor jugador del mundo</h5>
-                            <p class="card-text">Resumen breve de la noticia deportiva 1. Más detalles sobre el evento o partido.</p>
-                            <a href="detalles.php?Codigo=1&token=abc123" class="btn btn-primary">Leer más</a>
-                        </div>
+                <div class="card">
+                    <img src="Imagenes/JR.jpg" class="card-img-top" alt="Título de la noticia 1">
+                    <div class="card-body">
+                        <h5 class="card-title">James Rodriguez, nominado al mejor jugador del mundo</h5>
+                        <p class="card-text">El diez de la Selección Colombia fue nominado al premio al mejor futbolista del año por la Federación Internacional de Historia y Estadística.</p>
+                        <a href="https://fcf.com.co/2024/10/21/james-rodriguez-nominado-al-mejor-jugador-de-2024/" class="btn btn-primary">Leer más</a>
                     </div>
                 </div>
-        
+
                 <!-- Noticia 2 -->
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="../images/noticias/deporte2.jpg" class="card-img-top" alt="Título de la noticia 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Título de la noticia 2</h5>
-                            <p class="card-text">Resumen breve de la noticia deportiva 2. Últimos resultados y comentarios.</p>
-                            <a href="detalles.php?Codigo=2&token=def456" class="btn btn-primary">Leer más</a>
-                        </div>
+                <div class="card">
+                    <img src="Imagenes/MJ.png" class="card-img-top" alt="Título de la noticia 2">
+                    <div class="card-body">
+                        <h5 class="card-title">A lo Michael Jordan: joven basquetbolista clavó genial canasta</h5>
+                        <p class="card-text">Shelby McEwen, aún jugador universitario del Oxford High School, ha dado el salto a la fama después de ejectuar esta magnifica canasta, al mismo estilo de Michael Jordan.</p>
+                        <a href="https://elcomercio.pe/deporte-total/polideportivo/michael-jordan-joven-basquetbolista-clavo-genial-canasta-347246-noticia/" class="btn btn-primary">Leer más</a>
                     </div>
                 </div>
-        
+
                 <!-- Noticia 3 -->
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="../images/noticias/deporte3.jpg" class="card-img-top" alt="Título de la noticia 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Título de la noticia 3</h5>
-                            <p class="card-text">Resumen breve de la noticia deportiva 3. Información relevante sobre el deporte.</p>
-                            <a href="detalles.php?Codigo=3&token=ghi789" class="btn btn-primary">Leer más</a>
-                        </div>
+                <div class="card">
+                    <img src="Imagenes/CR.jpg" class="card-img-top" alt="Título de la noticia 3">
+                    <div class="card-body">
+                        <h5 class="card-title">NFL: intentó celebrar como Cristiano Ronaldo y se lesionó</h5>
+                        <p class="card-text">Lamarr Houston se lesionó tras intentar imitar a Cristiano Ronaldo en su festejo, un hecho curioso en la NFL.</p>
+                        <a href="https://elcomercio.pe/deporte-total/polideportivo/nfl-celebrar-cristiano-ronaldo-lesiono-293861-noticia/" class="btn btn-primary">Leer más</a>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
-  </body>
+  <footer>
+    <div class="main-footer">
+        <div class="button-footer">
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a> 
+            <a href="#">Contacto</a>
+            <p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+        </div>
+        <div class="info-wed">
+            <div class="icon-footer">
+                <a href="#">
+                    <img src="https://img.icons8.com/?size=256&id=16713&format=png" alt="Wpp">
+                </a>
+                <a href="#">
+                    <img src="https://img.icons8.com/?size=256&id=Xy10Jcu1L2Su&format=png" alt="Ig">
+                </a>
+                <a href="#">
+                    <img src="https://img.icons8.com/?size=256&id=118497&format=png" alt="Face">
+                </a>
+                <a href="#">
+                    <img src="https://img.icons8.com/?size=256&id=6Fsj3rv2DCmG&format=png" alt="X">
+                </a>
+            </div>
+            <div class="contact-footer">
+              <div class="labelFoter">
+                DeportesInfoWeb
+              </div>
+        </div>
+    </div>
+  </footer>
+</body>
 </html>
