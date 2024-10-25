@@ -43,6 +43,7 @@ footer{
 font-family: "Rubik Wet Paint", system-ui;
 font-size: 40px;
 font-weight: 400;
+text-shadow: 2px 2px 2px #000;
 }
 .icon-footer{
     display: flex;
