@@ -9,8 +9,6 @@ footer{
     color: #fff;
     padding: 10px 0;
     padding-left: 10px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 .main-footer{
@@ -21,25 +19,30 @@ footer{
 .button-footer{
     display: flex;
     flex-direction: column;
+    gap: 10px;
     justify-content: space-between;
 }
 .button-footer a{
     color: #fff;
-    width: 90px;
+    width: 120px;
+    padding: 5px;
     text-decoration: none;
-    background-color: #161616b0;
+    background-color: #16161660;
     border-radius: 5%;
     text-align: center;
+}
+.button-footer a:hover{
+    background-color: #161616;
 }
 .info-wed{
     display: flex;
     flex-direction: column;
     padding-right: 100px;
 }
-.info-wed .img-footer img{
-    width: 200px;
-    height: 100px;
-    border-radius: 10px;
+.info-wed .contact-footer .labelFoter{
+font-family: "Rubik Wet Paint", system-ui;
+font-size: 40px;
+font-weight: 400;
 }
 .icon-footer{
     display: flex;
@@ -48,5 +51,8 @@ footer{
 .icon-footer img{
     width: 40px;
     height: 40px;
+    filter: grayscale(100%);
 }
-
+.icon-footer img:hover{
+    filter: grayscale(0%);
+}
