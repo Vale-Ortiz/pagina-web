@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina de Deportes</title>
+    <meta name="keywords" content="deportes,noticias" />
+    <link rel="stylesheet" href="contacto.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul class="">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Formulario de contacto</h1>
+        <form action="enviar_formulario" method="post">
+          <div class="form-group">
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Nombre"
+              required
+            />
+            <input
+              type="text"
+              id="apellidos"
+              name="apellidos"
+              placeholder="Apellidos"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              placeholder="Teléfono"
+              required
+            />
+          </div>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            required
+          />
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            placeholder="Mensaje"
+            rows="4"
+            required
+          ></textarea>
+          <br />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
