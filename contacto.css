@@ -1,0 +1,52 @@
+.menu {
+}
+
+.container {
+  border-collapse: solid;
+  background-color: #202355;
+  padding: 50px;
+  border: solid 2px #202355;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #5fa8d3;
+  color: black;
+  border: solid;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
