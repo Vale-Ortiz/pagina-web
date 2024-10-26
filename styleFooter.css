@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #020d17;
+    color: #fff;
+    padding: 10px 0;
+    padding-left: 10px;
+    width: 100%;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+.button-footer a{
+    color: #fff;
+    width: 120px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #16161660;
+    border-radius: 5%;
+    text-align: center;
+}
+.button-footer a:hover{
+    background-color: #3a0458;
+}
+.info-wed{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+}
+.info-wed .contact-footer .labelFoter{
+font-family: "Rubik Wet Paint", system-ui;
+font-size: 40px;
+font-weight: 400;
+text-shadow: 2px 2px 2px #000;
+}
+.icon-footer{
+    display: flex;
+    gap: 10px;
+}
+.icon-footer img{
+    width: 40px;
+    height: 40px;
+    filter: grayscale(100%);
+}
+.icon-footer img:hover{
+    filter: grayscale(0%);
+}
