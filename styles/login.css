@@ -10,7 +10,10 @@ body {
 }
 .login-container {
     background-color: white;
-    border: 2px solid #4c8baf;
+    border-top-right-radius: 8px ;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     padding: 40px;
     border-radius: 10px;
     width: 300px;
@@ -96,11 +99,21 @@ h2 {
     color: #4cacaf;
 }
 
+
 .imagen-logo {
     width: 380px;
-    height: 300px;
-    margin: 20px auto;
+    height: 320px;
     display: block;
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.fhater-login{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.74);
+    
 }
 
